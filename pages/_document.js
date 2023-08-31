@@ -23,8 +23,14 @@ class MyDocument extends Document {
             href="/favicon/favicon-16x16.png"
           />
           <link rel="manifest" href="/favicon/site.webmanifest" />
+          <script data-ad-client="YOUR_AD_CLIENT_ID" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         </Head>
         <body>
+          {/* Add your text content here */}
+          <header>
+            <h1>Welcome to My Next.js Website</h1>
+            <p>This is some introductory text for your website.</p>
+          </header>
           <Main />
           <NextScript />
         </body>
@@ -34,3 +40,4 @@ class MyDocument extends Document {
 }
 
 export default MyDocument;
+
