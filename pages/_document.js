@@ -22,31 +22,25 @@ class MyDocument extends Document {
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
           ></script>
         </Head>
-        <body className="bg-gray-100 font-sans">
+        <body className="bg-gradient-to-r from-blue-500 to-indigo-500 text-white font-sans">
           {/* Header Section */}
-          <header className="bg-blue-500 text-white p-4">
-            {/* Move the title and text here */}
-            <h1 className="text-2xl font-bold">Welcome to Thumbnail Website</h1>
-            <p>By using this tool you can easily get thumbnails from YouTube videos and then download them for free. This service works for computer, tablets, and mobile devices.</p>
-
-            {/* Input for YouTube video URL */}
-            <input
-              type="text"
-              placeholder="Enter YouTube video URL"
-              className="bg-white p-2 mt-4 rounded-md"
-            />
+          <header className="bg-blue-700 text-white p-4">
+            <div className="mb-4">
+              <h1 className="text-4xl font-bold">Welcome to Thumbnail Website</h1>
+              <p className="text-lg">By using this tool, you can easily get thumbnails from YouTube videos and then download them for free. This service works for computers, tablets, and mobile devices.</p>
+            </div>
           </header>
 
           {/* Main Content */}
           <main className="container mx-auto p-4">
             {/* Add your main content here */}
             {/* Example: */}
-            <h2 className="text-xl font-bold mb-4">Always find the thumbnails in the highest quality and with max resolution</h2>
-            <p>To get the thumbnail you need to copy the YouTube video URL into our tool.</p>
+            <h2 className="text-2xl font-bold mb-4">Always find the thumbnails in the highest quality and with max resolution</h2>
+            <p className="text-lg">To get the thumbnail, you need to copy the YouTube video URL into our tool.</p>
           </main>
 
           {/* Footer Section */}
-          <footer className="bg-gray-800 text-white text-center p-4">
+          <footer className="bg-gray-900 text-white text-center p-4">
             &copy; {new Date().getFullYear()} youtubedownload-thumbnail
           </footer>
 
