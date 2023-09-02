@@ -7,7 +7,7 @@ class MyDocument extends Document {
         <Head>
           {/* Add meta description and title for SEO */}
           <meta name="description" content="Your website description goes here." />
-          <title>Your Website Title</title>
+          <title>Youtubedownload-thumbnail</title>
 
           {/* Add favicon */}
           <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
