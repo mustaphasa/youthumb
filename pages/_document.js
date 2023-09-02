@@ -27,19 +27,26 @@ class MyDocument extends Document {
           <header className="bg-blue-500 text-white p-4">
             <h1 className="text-2xl font-bold">Welcome to Thumbnail Website</h1>
             <p>By using this tool you can easily get thumbnails from YouTube videos and then download them for free. This service works for computer, tablets, and mobile devices.</p>
+
+            {/* Input for YouTube video URL */}
+            <input
+              type="text"
+              placeholder="Enter YouTube video URL"
+              className="bg-white p-2 mt-4 rounded-md"
+            />
           </header>
 
           {/* Main Content */}
           <main className="container mx-auto p-4">
             {/* Add your main content here */}
             {/* Example: */}
-            <h2 className="text-xl font-bold mb-4">Main Content Section</h2>
-            <p>Here is the main content of your website.</p>
+            <h2 className="text-xl font-bold mb-4">Always find the thumbnails in the highest quality and with max resolution</h2>
+            <p>To get the thumbnail you need to copy the YouTube video URL into our tool.</p>
           </main>
 
           {/* Footer Section */}
           <footer className="bg-gray-800 text-white text-center p-4">
-            &copy; {new Date().getFullYear()} Your Website Name
+            &copy; {new Date().getFullYear()} youtubedownload-thumbnail
           </footer>
 
           <NextScript />
