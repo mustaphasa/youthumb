@@ -28,8 +28,8 @@ class MyDocument extends Document {
         <body>
           {/* Add your text content here */}
           <header>
-            <h1>Welcome to My Next.js Website</h1>
-            <p>This is some introductory text for your website.</p>
+            <h1>Welcome to Thumbnail Website</h1>
+            <p>By using this tool, you can easily get thumbnails from YouTube videos and then download them for free. This service works for computers, tablets, and mobile devices.</p>
           </header>
           <Main />
           <NextScript />
