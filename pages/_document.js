@@ -37,6 +37,9 @@ class MyDocument extends Document {
           <div className="bg-gray-200 p-4 text-center">
             <p>It will always find the thumbnails in the highest quality and with max resolution.</p>
             <p>To get the thumbnail, you need to copy the YouTube video URL into our tool.</p>
+
+            {/* Add a Call to Action (CTA) */}
+            <p>Want to get started? Simply paste the YouTube video URL above and hit the "Download Thumbnails" button below.</p>
           </div>
 
           <NextScript />
