@@ -25,6 +25,7 @@ class MyDocument extends Document {
         <body className="bg-gray-100 font-sans">
           {/* Header Section */}
           <header className="bg-blue-500 text-white p-4">
+            {/* Move the title and text here */}
             <h1 className="text-2xl font-bold">Welcome to Thumbnail Website</h1>
             <p>By using this tool you can easily get thumbnails from YouTube videos and then download them for free. This service works for computer, tablets, and mobile devices.</p>
 
@@ -57,4 +58,5 @@ class MyDocument extends Document {
 }
 
 export default MyDocument;
+
 
