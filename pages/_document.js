@@ -35,8 +35,8 @@ class MyDocument extends Document {
           <main className="container mx-auto p-4">
             {/* Add your main content here */}
             {/* Example: */}
-            <h2 className="text-2xl font-bold mb-4">Always find the thumbnails in the highest quality and with max resolution</h2>
-            <p className="text-lg">To get the thumbnail, you need to copy the YouTube video URL into our tool.</p>
+            <h2 className="text-2xl font-bold mb-4"></h2>
+            <p className="text-lg">.</p>
           </main>
 
           {/* Footer Section */}
