@@ -26,9 +26,10 @@ class MyDocument extends Document {
           {/* Header Section */}
           <header className="bg-blue-500 text-white p-4">
             <h1 className="text-2xl font-bold">YouTube Thumbnail Downloader</h1>
-            <p>Download high-quality thumbnails from YouTube videos.</p>
+            <p>Get free thumbnail image of any youtube videos in Full HD.</p>
           </header>
-            <p>Download high-quality thumbnails from YouTube videos.</p>
+            <p>It will always find the thumbnails in the highest quality and with max resolution.</p>
+            <p>Want to get started? Simply paste the YouTube video URL above and hit the "Download Thumbnails button below.</p>
           {/* Main Content */}
           <Main />
 
