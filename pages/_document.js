@@ -27,6 +27,8 @@ class MyDocument extends Document {
           <header style={{ backgroundColor: "#ff5b24", color: "white", padding: "20px" }}>
             <h1 style={{ fontSize: "2rem", fontWeight: "bold" }}>YouTube Thumbnail Downloader</h1>
             <p>Get free thumbnail image of any YouTube videos in Full HD.</p>
+            <p>It will always find the thumbnails in the highest quality and with max resolution.</p>
+            <p>Want to get started? Simply paste the YouTube video URL above and hit the "Download Thumbnails button below.</p>
           </header>
 
           {/* Main Content */}
