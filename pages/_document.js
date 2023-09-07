@@ -28,7 +28,7 @@ class MyDocument extends Document {
             <h1 className="text-2xl font-bold">YouTube Thumbnail Downloader</h1>
             <p>Download high-quality thumbnails from YouTube videos.</p>
           </header>
-
+            <p>Download high-quality thumbnails from YouTube videos.</p>
           {/* Main Content */}
           <Main />
 
