@@ -22,43 +22,46 @@ class MyDocument extends Document {
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
           ></script>
         </Head>
-        <body style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}>
+        <body style={{ minHeight: "100vh", margin: 0, display: "flex", flexDirection: "column" }}>
           {/* Header Section */}
-          <header className="bg-blue-500 text-white p-4">
-            <h1 className="text-2xl font-bold">YouTube Thumbnail Downloader</h1>
-            <p>Get free thumbnail image of any youtube videos in Full HD.</p>
+          <header style={{ backgroundColor: "#ff5b24", color: "white", padding: "20px" }}>
+            <h1 style={{ fontSize: "2rem", fontWeight: "bold" }}>YouTube Thumbnail Downloader</h1>
+            <p>Get free thumbnail image of any YouTube videos in Full HD.</p>
           </header>
-            <p>It will always find the thumbnails in the highest quality and with max resolution.</p>
-            <p>Want to get started? Simply paste the YouTube video URL above and hit the "Download Thumbnails button below.</p>
+
           {/* Main Content */}
-          <Main />
+          <Main style={{ flex: 1 }} />
 
           {/* Footer Section */}
-          <footer className="bg-gray-800 text-white text-center p-4">
+          <footer style={{ backgroundColor: "#232323", color: "white", padding: "20px", textAlign: "center" }}>
             &copy; {new Date().getFullYear()} YouTube Thumbnail Downloader
           </footer>
 
           {/* Additional Text Content */}
-          <div style={{ flex: 1, display: "flex", justifyContent: "center", alignItems: "center" }} className="bg-gray-200 p-4 text-center">
-            <div>
-              <p>It will always find the thumbnails in the highest quality and with max resolution.</p>
-              <p>To get the thumbnail, you need to copy the YouTube video URL into our tool.</p>
+          <div style={{ backgroundColor: "#f7f7f7", padding: "20px", textAlign: "center" }}>
+            <p style={{ fontSize: "1.5rem", fontWeight: "bold", marginBottom: "20px" }}>Save YT Video Thumbnails</p>
+            <p>
+              Get free thumbnail image of any YouTube videos in Full HD(1080), HD (720), SD, and also in small size. it's
+              currently supported formats: YouTube (HD, HQ, 1080p, 4K) videos
+            </p>
 
-              {/* Add a Call to Action (CTA) */}
-              <p>Want to get started? Simply paste the YouTube video URL above and hit the "Download Thumbnails" button below.</p>
+            <p style={{ fontSize: "1.2rem", fontWeight: "bold", marginTop: "20px" }}>What is the use of this YouTube Thumbnail Grabber website?</p>
+            <p>
+              People use this YouTube thumbnail downloader website for getting thumbnail from any YouTube videos. That can be
+              used in presentation, animation work or many other activities.
+            </p>
 
-              {/* Your additional text content here */}
-              <p>Save YT Video Thumbnails</p>
-              <p>Get free thumbnail image of any YouTube videos in Full HD(1080), HD (720), SD, and also in small size. it's currently supported formats: YouTube (HD, HQ, 1080p, 4K) videos</p>
+            {/* ... Add more paragraphs ... */}
 
-              <p>What is the use of this YouTube Thumbnail Grabber website?</p>
-              <p>People use this YouTube thumbnail downloader website for getting thumbnail from any YouTube videos. That can be used in presentation, animation work or many other activities.</p>
-
-              {/* ... Add more paragraphs ... */}
-
-              <p>Is reusing YouTube thumbnails are SEO friendly?</p>
-              <p>Nope it's not, in short answer it's not SEO friendly because almost all thumbnails which are on YouTube are indexed by Google. So which one is unique and which one is duplicate google know it. So it's not SEO friendly as you know. But you can do some stuff on that thumbnail I mean getting some unique effects using Photoshop or any other software that can make your thumbnail unique again so that can be reused and make that SEO friendly again.</p>
-            </div>
+            <p style={{ fontSize: "1.2rem", fontWeight: "bold", marginTop: "20px" }}>
+              Is reusing YouTube thumbnails are SEO friendly?
+            </p>
+            <p>
+              Nope it's not, in short answer it's not SEO friendly because almost all thumbnails which are on YouTube are
+              indexed by Google. So which one is unique and which one is duplicate google know it. So it's not SEO friendly as
+              you know. But you can do some stuff on that thumbnail I mean getting some unique effects using Photoshop or any
+              other software that can make your thumbnail unique again so that can be reused and make that SEO friendly again.
+            </p>
           </div>
 
           <NextScript />
@@ -69,6 +72,7 @@ class MyDocument extends Document {
 }
 
 export default MyDocument;
+
 
 
 
