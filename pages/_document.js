@@ -17,9 +17,9 @@ class MyDocument extends Document {
 
           {/* Add AdSense script */}
           <script
-            data-ad-client="YOUR_AD_CLIENT_ID"
             async
-            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8246032295594675"
+            crossorigin="anonymous"
           ></script>
         </Head>
         <body style={{ minHeight: "100vh", margin: 0, display: "flex", flexDirection: "column" }}>
@@ -50,7 +50,7 @@ class MyDocument extends Document {
             <p style={{ fontSize: "1.2rem", fontWeight: "bold", marginTop: "20px" }}>What is the use of this YouTube Thumbnail Grabber website?</p>
             <p>
               People use this YouTube thumbnail downloader website for getting thumbnail from any YouTube videos. That can be
-              used in presentation, animation work or many other activities.
+              used in presentation, animation work, or many other activities.
             </p>
 
             {/* ... Add more paragraphs ... */}
@@ -59,12 +59,39 @@ class MyDocument extends Document {
               Is reusing YouTube thumbnails are SEO friendly?
             </p>
             <p>
-              Nope it's not, in short answer it's not SEO friendly because almost all thumbnails which are on YouTube are
-              indexed by Google. So which one is unique and which one is duplicate google know it. So it's not SEO friendly as
-              you know. But you can do some stuff on that thumbnail I mean getting some unique effects using Photoshop or any
+              Nope, it's not. In short, it's not SEO friendly because almost all thumbnails which are on YouTube are
+              indexed by Google. So which one is unique and which one is duplicate, Google knows it. So it's not SEO friendly as
+              you know. But you can do some stuff on that thumbnail, I mean getting some unique effects using Photoshop or any
               other software that can make your thumbnail unique again so that can be reused and make that SEO friendly again.
             </p>
           </div>
+
+          {/* Google Ads Section */}
+          <script
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8246032295594675"
+            crossorigin="anonymous"
+          ></script>
+          <div style={{ display: "flex", justifyContent: "space-between" }}>
+            {/* Left Ad */}
+            <ins
+              className="adsbygoogle"
+              style={{ display: "inline-block", width: "160px", height: "600px" }}
+              data-ad-client="ca-pub-8246032295594675"
+              data-ad-slot="2273371825"
+            ></ins>
+
+            {/* Right Ad */}
+            <ins
+              className="adsbygoogle"
+              style={{ display: "inline-block", width: "160px", height: "600px" }}
+              data-ad-client="ca-pub-8246032295594675"
+              data-ad-slot="2273371825"
+            ></ins>
+          </div>
+          <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
 
           <NextScript />
         </body>
@@ -74,6 +101,7 @@ class MyDocument extends Document {
 }
 
 export default MyDocument;
+
 
 
 
